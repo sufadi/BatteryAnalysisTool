@@ -17,6 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".gpu.GpuActivity"
+            android:label="@string/item_gpu_tittle">
+        </activity>
     </application>
 
 </manifest>
