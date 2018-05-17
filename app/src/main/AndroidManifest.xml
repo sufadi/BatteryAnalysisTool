@@ -22,6 +22,11 @@
             android:name=".gpu.GpuActivity"
             android:label="@string/item_gpu_tittle">
         </activity>
+
+        <activity
+            android:name=".network.NetworkActivity"
+            android:label="@string/item_network_tittle">
+        </activity>
     </application>
 
 </manifest>

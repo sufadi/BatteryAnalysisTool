@@ -6,7 +6,7 @@ package com.fadi.batteryanalysistool.util;
 public class Constant {
 
     // 项目代码地址
-    public static final String GITHUB_ADDR = "https://github.com/sufadi/BotanyWarZombies";
+    public static final String GITHUB_ADDR = "https://github.com/sufadi/BatteryAnalysisTool";
 
     // 版本名称
     public static final String KEY_VERSION_NAME = "Version Name";

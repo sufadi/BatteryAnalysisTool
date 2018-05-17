@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">功耗分析助手</string>
     <string name="item_gpu_tittle">GPU 信息</string>
+    <string name="item_network_tittle">网络信息</string>
 </resources>

@@ -20,6 +20,12 @@
             android:layout_height="wrap_content" />
 
         <Button
+            android:onClick="NetWorkInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item_network_tittle" />
+
+        <Button
             android:onClick="GpuInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BatteryAnalysisTool</string>
     <string name="item_gpu_tittle">GPU Info</string>
+    <string name="item_network_tittle">Network Info</string>
 </resources>

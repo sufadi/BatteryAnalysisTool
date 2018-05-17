@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.fadi.batteryanalysistool.R;
 import com.fadi.batteryanalysistool.gpu.GpuActivity;
+import com.fadi.batteryanalysistool.network.NetworkActivity;
 import com.fadi.batteryanalysistool.util.Constant;
 import com.fadi.batteryanalysistool.util.ShareUtil;
 
@@ -35,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
     private String getVersionName() {
         ShareUtil mShareUtil = new ShareUtil(this);
         return  mShareUtil.getString(Constant.KEY_VERSION_NAME, "Happy!");
+    }
+
+    public void NetWorkInfo(View view) {
+        startActivity(new Intent(this, NetworkActivity.class));
     }
 
     public void GpuInfo(View view) {
