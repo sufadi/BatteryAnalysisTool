@@ -3,10 +3,12 @@ package com.fadi.batteryanalysistool.ui;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 import com.fadi.batteryanalysistool.R;
+import com.fadi.batteryanalysistool.battery.BatteryInfo;
 import com.fadi.batteryanalysistool.gpu.GpuActivity;
 import com.fadi.batteryanalysistool.network.NetworkActivity;
 import com.fadi.batteryanalysistool.util.Constant;
@@ -23,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
         initView();
         initValue();
+
+        Log.d("suhuazhi", "batteryCap = " + BatteryInfo.getBatteryCapacity(this));
     }
 
     private void initView() {
